@@ -1,0 +1,66 @@
+#map {
+    height: 98.5vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #EDC001;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.routing-bar {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.routing-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.routing-bar button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #Daa520;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.routing-bar button:hover {
+    background-color: #218838;
+}
+.search-bar button:hover {
+    background-color: #a8a008;
+}
+
